@@ -164,16 +164,48 @@ export const projects: Project[] = [
   },
 ];
 
-export const education = [
+export type Education = {
+  school: string;
+  degree: string;
+  period?: string;
+  description?: string;
+};
+
+export const education: Education[] = [
   {
-    school: "Northeastern University, Boston, MA",
-    degree: "Master of Science in Project Management - GPA: 4.0/4.0",
-    period: "Aug 2026",
+    school: "Northeastern University",
+    degree: "Master of Science, Project Management - Grade: 4.0/4.0",
+    period: "Apr 2025",
   },
   {
-    school: "Bangalore University, India",
-    degree: "Bachelors in Business Administration - Business Analytics & Information Technology Management",
-    period: "Aug 2023",
+    school: "MIT University of Meghalaya",
+    degree: "Executive MBA, Marketing Management - Grade: 9.84",
+  },
+  {
+    school: "MIT School of Distance Education",
+    degree: "Postgraduate Degree, Information Technology Management - Grade: 9.89",
+  },
+  {
+    school: "International Institute of Information Technology, Bangalore",
+    degree: "Advanced Certificate Program in Data Science, Business Intelligence/Business Analytics",
+    period: "Apr 2024 - Dec 2024",
+  },
+  {
+    school: "Rishihood University",
+    degree: "Public Policy Bootcamp, Public Policy",
+    period: "Jul 2023",
+    description:
+      "In-depth study of public policy formulation, analysis, and implementation, with a focus on data-driven, sustainable solutions for societal governance challenges.",
+  },
+  {
+    school: "GIBS Business School",
+    degree: "Bachelor of Business Administration (BBA), Data Analytics and Information Technology",
+    description:
+      "Built a foundation in leveraging data analytics and IT to drive business decisions, with focus on data visualization, statistical analysis, and predictive modeling.",
+  },
+  {
+    school: "Jawahar Navodaya Vidyalaya (JNV)",
+    degree: "10th & 12th Grade, PCMC",
   },
 ];
 

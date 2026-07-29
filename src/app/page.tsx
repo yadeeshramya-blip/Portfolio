@@ -4,6 +4,7 @@ import ExperienceList from "@/components/ExperienceList";
 import GlobalEngagement from "@/components/GlobalEngagement";
 import Approach from "@/components/Approach";
 import Projects from "@/components/Projects";
+import Education from "@/components/Education";
 import Skills from "@/components/Skills";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -36,6 +37,7 @@ export default function Home() {
         <GlobalEngagement />
         <Approach />
         <Projects />
+        <Education />
         <Skills />
         <Contact />
       </div>
