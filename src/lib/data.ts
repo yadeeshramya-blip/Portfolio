@@ -59,12 +59,12 @@ export const leadership: Leadership[] = [
     ],
   },
   {
-    org: "Asia Australia Youth Association, India Chapter",
-    role: "Vice President, Careers",
-    period: "Apr 2026 - Present",
+    org: "PMI Mass Bay Chapter",
+    role: "Event Manager",
+    period: "May 2026 - Present",
     points: [
-      "Drive end-to-end planning and execution of careers programming across 20+ countries in Asia, reporting directly to the National Director.",
-      "Manage the careers vertical across India, overseeing scheduling, resource allocation, and stakeholder alignment with chapter leads.",
+      "Led end-to-end planning and execution of chapter events, coordinating a cross-functional volunteer team through vendor negotiation, budget tracking, and market research to secure nonprofit-friendly venues.",
+      "Drove seamless on-site delivery and attendee engagement.",
     ],
   },
 ];
