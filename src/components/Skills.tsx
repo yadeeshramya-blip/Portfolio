@@ -1,9 +1,9 @@
 import SectionLabel from "./SectionLabel";
 import { skills } from "@/lib/data";
 
-export default function Skills() {
+export default function Skills({ id }: { id?: string }) {
   return (
-    <section className="py-10">
+    <section id={id} className="py-10">
       <SectionLabel>Skills & Certifications</SectionLabel>
       <div className="border-t border-border pt-6">
         <h3 className="text-sm font-medium">Technical Skills</h3>

@@ -13,36 +13,44 @@ import { experience, leadership } from "@/lib/data";
 export default function Home() {
   return (
     <div className="flex flex-1 flex-col">
-      <div className="mx-auto w-full max-w-2xl flex-1 px-6">
+      <div className="mx-auto w-full max-w-5xl flex-1 px-6">
         <Header />
-        <Hero />
-        <ExperienceList
-          label="Work Life"
-          entries={experience.map((e) => ({
-            title: e.role,
-            subtitle: e.company,
-            period: e.period,
-            points: e.points,
-          }))}
-        />
-        <ExperienceList
-          label="Leadership & Advisory"
-          entries={leadership.map((l) => ({
-            title: l.role,
-            subtitle: l.org,
-            period: l.period,
-            points: l.points,
-          }))}
-        />
-        <GlobalEngagement />
-        <Approach />
-        <Projects />
-        <Education />
-        <Skills />
-        <Contact />
-      </div>
-      <div className="mx-auto w-full max-w-2xl px-6">
-        <Footer />
+        <div className="lg:grid lg:grid-cols-[minmax(0,42rem)_1fr] lg:items-start lg:gap-16">
+          <div>
+            <Hero />
+            <ExperienceList
+              id="work-life"
+              label="Work Life"
+              entries={experience.map((e) => ({
+                title: e.role,
+                subtitle: e.company,
+                period: e.period,
+                points: e.points,
+              }))}
+            />
+            <ExperienceList
+              id="leadership"
+              label="Leadership & Advisory"
+              entries={leadership.map((l) => ({
+                title: l.role,
+                subtitle: l.org,
+                period: l.period,
+                points: l.points,
+              }))}
+            />
+            <GlobalEngagement id="global-engagement" />
+            <Approach id="approach" />
+            <Projects id="projects" />
+            <Education id="education" />
+          </div>
+          <aside className="lg:sticky lg:top-24 lg:self-start">
+            <Skills id="skills" />
+          </aside>
+        </div>
+        <div className="lg:max-w-[42rem]">
+          <Contact id="contact" />
+          <Footer />
+        </div>
       </div>
     </div>
   );

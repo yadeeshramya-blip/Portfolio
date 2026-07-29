@@ -8,14 +8,16 @@ type Entry = {
 };
 
 export default function ExperienceList({
+  id,
   label,
   entries,
 }: {
+  id?: string;
   label: string;
   entries: Entry[];
 }) {
   return (
-    <section className="py-10">
+    <section id={id} className="py-10">
       <SectionLabel>{label}</SectionLabel>
       <div className="divide-y divide-border border-t border-border">
         {entries.map((entry) => (

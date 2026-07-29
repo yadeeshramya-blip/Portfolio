@@ -1,9 +1,9 @@
 import SectionLabel from "./SectionLabel";
 import { approach } from "@/lib/data";
 
-export default function Approach() {
+export default function Approach({ id }: { id?: string }) {
   return (
-    <section className="py-10">
+    <section id={id} className="py-10">
       <SectionLabel>Approach</SectionLabel>
       <div className="divide-y divide-border border-t border-border">
         {approach.map((item) => (

@@ -1,9 +1,9 @@
 import SectionLabel from "./SectionLabel";
 import { globalEngagement } from "@/lib/data";
 
-export default function GlobalEngagement() {
+export default function GlobalEngagement({ id }: { id?: string }) {
   return (
-    <section className="py-10">
+    <section id={id} className="py-10">
       <SectionLabel>Global & Policy Engagement</SectionLabel>
       <div className="divide-y divide-border border-t border-border">
         {globalEngagement.map((entry) => (

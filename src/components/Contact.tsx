@@ -16,9 +16,9 @@ function LinkedInIcon({ size = 20 }: { size?: number }) {
   );
 }
 
-export default function Contact() {
+export default function Contact({ id }: { id?: string }) {
   return (
-    <section className="py-10">
+    <section id={id} className="py-10">
       <SectionLabel>Contact</SectionLabel>
       <div className="flex flex-wrap items-center justify-between gap-6 border-t border-border pt-6">
         <div className="flex flex-wrap items-center gap-6">

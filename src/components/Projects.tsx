@@ -1,9 +1,9 @@
 import SectionLabel from "./SectionLabel";
 import { projects } from "@/lib/data";
 
-export default function Projects() {
+export default function Projects({ id }: { id?: string }) {
   return (
-    <section className="py-10">
+    <section id={id} className="py-10">
       <SectionLabel>Projects</SectionLabel>
       <div className="divide-y divide-border border-t border-border">
         {projects.map((project) => (
