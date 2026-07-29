@@ -175,7 +175,6 @@ export const education: Education[] = [
   {
     school: "Northeastern University",
     degree: "Master of Science, Project Management - Grade: 4.0/4.0",
-    period: "Apr 2025",
   },
   {
     school: "MIT University of Meghalaya",
@@ -188,12 +187,10 @@ export const education: Education[] = [
   {
     school: "International Institute of Information Technology, Bangalore",
     degree: "Advanced Certificate Program in Data Science, Business Intelligence/Business Analytics",
-    period: "Apr 2024 - Dec 2024",
   },
   {
     school: "Rishihood University",
     degree: "Public Policy Bootcamp, Public Policy",
-    period: "Jul 2023",
     description:
       "In-depth study of public policy formulation, analysis, and implementation, with a focus on data-driven, sustainable solutions for societal governance challenges.",
   },
