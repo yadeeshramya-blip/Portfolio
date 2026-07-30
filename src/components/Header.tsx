@@ -1,4 +1,5 @@
 import { profile } from "@/lib/data";
+import MobileNav from "./MobileNav";
 
 const navLinks = [
   { href: "#work-life", label: "Work" },
@@ -13,12 +14,15 @@ const navLinks = [
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-10 -mx-6 bg-background/90 px-6 backdrop-blur-sm">
+    <header className="sticky top-0 z-50 -mx-6 bg-background/90 px-6 backdrop-blur-sm">
       <div className="flex items-center justify-between py-6">
         <span className="font-medium tracking-tight">{profile.name}</span>
-        <span className="text-sm text-muted">{profile.location}</span>
+        <div className="flex items-center gap-4">
+          <span className="text-sm text-muted">{profile.location}</span>
+          <MobileNav links={navLinks} />
+        </div>
       </div>
-      <nav className="flex flex-wrap gap-x-5 gap-y-2 border-t border-border py-3 text-sm text-muted">
+      <nav className="hidden flex-wrap gap-x-5 gap-y-2 border-t border-border py-3 text-sm text-muted lg:flex">
         {navLinks.map((link) => (
           <a
             key={link.href}
