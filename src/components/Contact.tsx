@@ -1,4 +1,4 @@
-import { Mail, ArrowUpRight } from "lucide-react";
+import { Mail } from "lucide-react";
 import SectionLabel from "./SectionLabel";
 import { profile } from "@/lib/data";
 
@@ -28,15 +28,6 @@ export default function Contact({ id }: { id?: string }) {
           >
             <Mail size={16} />
             Send me an email
-          </a>
-          <a
-            href="/resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-1.5 text-sm font-medium hover:text-accent"
-          >
-            Read my resume
-            <ArrowUpRight size={14} />
           </a>
         </div>
         <a

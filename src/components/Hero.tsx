@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { ArrowUpRight } from "lucide-react";
 import { profile } from "@/lib/data";
 
 export default function Hero() {
@@ -18,15 +17,6 @@ export default function Hero() {
             className="rounded-full bg-foreground px-5 py-2.5 text-sm font-medium text-background transition-opacity hover:opacity-90"
           >
             Contact me
-          </a>
-          <a
-            href="/resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-1.5 rounded-full border border-border px-5 py-2.5 text-sm font-medium transition-colors hover:bg-black/[.03]"
-          >
-            Read my resume
-            <ArrowUpRight size={15} />
           </a>
         </div>
       </div>
