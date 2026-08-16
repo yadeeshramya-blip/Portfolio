@@ -18,25 +18,24 @@ export type Experience = {
 
 export const experience: Experience[] = [
   {
-    company: "Raah2Rashtra India Foundation",
-    role: "Founder & Program Manager",
+    company: "Raah2Rashtra India Foundation, India",
+    role: "Co-founder & Program Manager",
     period: "Jul 2025 - Present",
     points: [
-      "Built a full project management framework from scratch across 3 workstreams and a 21-member team; delivered 10+ concurrent programs across 5 sites on schedule with no budget overrun.",
-      "Translated ambiguous, conflicting stakeholder objectives into structured plans with clear milestones; secured institutional approvals across all 5 government sites.",
-      "Designed ownership routines and progress checkpoints for a volunteer workforce, scaling impact to 1,500+ students in under 12 months.",
-      "Deployed the foundation's website end-to-end and defined the roadmap for an AI-powered scholarship-matching platform.",
+      "Scaled a 21-member organization to 10+ programs across 5 government institutional partnerships in under 12 months, establishing the governance framework behind 100% on-schedule delivery and zero budget variance.",
+      "Built accountability systems for a fully volunteer workforce with no formal reporting lines, scaling program reach to 1,500+ students, while securing CSR funding and standing up the scholarship program from concept to active disbursement.",
+      "Deployed the foundation's website end-to-end and defined the roadmap and milestones for an AI-powered scholarship-matching platform, centralizing scholarship search matched to student profiles and mentor call scheduling; now sourcing the mentor network and resources.",
     ],
   },
   {
-    company: "Simplotel Technologies Pvt. Ltd.",
+    company: "Simplotel Technologies Pvt. Ltd., Bangalore, India",
     role: "Customer Success Manager",
     period: "Sep 2023 - Sep 2024",
     points: [
-      "Diagnosed pricing inefficiencies across 15 enterprise accounts (15% of company revenue) by analyzing 500,000+ traffic and room-night records; recommendations were adopted portfolio-wide, improving gross margin by 12%.",
-      "Owned end-to-end account strategy for 60 enterprise clients, driving 22% revenue growth across 2 consecutive quarters.",
-      "Reduced onboarding setup time by 20% and sustained 0% churn by owning scope, timelines, and cross-team coordination through go-live.",
-      "Reframed upsell conversations around demonstrated ROI, contributing to 8% growth in upsell and cross-sell revenue.",
+      "Diagnosed pricing inefficiencies across 15 enterprise accounts (15% of company revenue) by analyzing 500,000+ website traffic and room-night records in SQL and Excel; recommendations were adopted portfolio-wide, improving average client gross margin by 12%.",
+      "Owned end-to-end account strategy for 60 enterprise clients; identified expansion and retention levers through structured account reviews, driving 22% revenue growth across 2 consecutive quarters.",
+      "Identified onboarding as the primary drop-off risk; owned end-to-end delivery - defining scope, timelines, and milestones while coordinating Tech, Design, Marketing, Content, and Finance teams through go-live - cutting setup time by 20% and sustaining 0% churn.",
+      "Reframed upsell conversations around demonstrated ROI of existing services before expansion pitches; approach was adopted as the standard account playbook, contributing to 8% growth in upsell and cross-sell revenue.",
     ],
   },
 ];
@@ -52,19 +51,17 @@ export const leadership: Leadership[] = [
   {
     org: "PMI Washington DC Chapter (PMIWDC)",
     role: "Policy Specialist - Strategy & Governance",
-    period: "Jun 2026 - Present",
+    period: "Volunteer, Jun 2026 - Present",
     points: [
-      "Conducting a comprehensive inventory and gap analysis of existing chapter policies.",
-      "Collaborating with project leadership to draft, revise, and standardize policies across functional areas, and developing training materials for organization-wide adoption.",
+      "Conducting a comprehensive inventory and gap analysis of existing PMIWDC chapter policies; collaborating with project leadership to draft, revise, and standardize policies across functional areas, coordinating stakeholder feedback cycles, and developing training materials and reference guides to support organization-wide policy adoption.",
     ],
   },
   {
     org: "PMI Mass Bay Chapter",
-    role: "Event Manager",
-    period: "May 2026 - Present",
+    role: "Project Manager",
+    period: "Volunteer, May 2026 - Present",
     points: [
-      "Led end-to-end planning and execution of chapter events, coordinating a cross-functional volunteer team through vendor negotiation, budget tracking, and market research to secure nonprofit-friendly venues.",
-      "Drove seamless on-site delivery and attendee engagement.",
+      "Led strategic planning and event innovation for the chapter, aligning leadership on priorities and resource allocation while delivering flagship networking and collaborative engagement events; reviewing existing SOPs to codify them into a formal governing policy that strengthens consistency and accountability across chapter operations.",
     ],
   },
 ];

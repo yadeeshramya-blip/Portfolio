@@ -30,7 +30,7 @@ export default function Home() {
             />
             <ExperienceList
               id="leadership"
-              label="Leadership & Advisory"
+              label="Volunteer Leadership - PMI Chapters"
               entries={leadership.map((l) => ({
                 title: l.role,
                 subtitle: l.org,
