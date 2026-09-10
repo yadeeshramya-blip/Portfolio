@@ -34,8 +34,9 @@ export const experience: Experience[] = [
     points: [
       "Diagnosed pricing inefficiencies across 15 enterprise accounts (15% of company revenue) by analyzing 500,000+ website traffic and room-night records in SQL and Excel; recommendations were adopted portfolio-wide, improving average client gross margin by 12%.",
       "Owned end-to-end account strategy for 60 enterprise clients; identified expansion and retention levers through structured account reviews, driving 22% revenue growth across 2 consecutive quarters.",
-      "Identified onboarding as the primary drop-off risk; owned end-to-end delivery - defining scope, timelines, and milestones while coordinating Tech, Design, Marketing, Content, and Finance teams through go-live - cutting setup time by 20% and sustaining 0% churn.",
+      "Identified onboarding as the primary drop-off risk; owned end-to-end delivery - defining scope, timelines, and milestones while coordinating Tech, Design, Marketing, Content, and Finance teams through launch readiness and go-live - cutting setup time by 20% and sustaining 0% churn.",
       "Reframed upsell conversations around demonstrated ROI of existing services before expansion pitches; approach was adopted as the standard account playbook, contributing to 8% growth in upsell and cross-sell revenue.",
+      "Served as the primary channel between clients and Engineering, synthesizing competitive research and recurring client feedback into product input that directly shaped feature and service improvements.",
     ],
   },
 ];
