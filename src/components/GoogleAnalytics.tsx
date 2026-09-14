@@ -1,6 +1,5 @@
 import Script from "next/script";
-
-const GA_MEASUREMENT_ID = "G-3HGT3KVN5Z";
+import { GA_MEASUREMENT_ID } from "@/lib/gtag";
 
 export default function GoogleAnalytics() {
   if (process.env.NODE_ENV !== "production") {

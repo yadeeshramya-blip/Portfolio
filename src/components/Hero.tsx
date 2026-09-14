@@ -3,7 +3,10 @@ import { profile } from "@/lib/data";
 
 export default function Hero() {
   return (
-    <section className="flex flex-col-reverse items-start gap-10 py-16 sm:flex-row sm:items-center sm:justify-between">
+    <section
+      id="hero"
+      className="flex flex-col-reverse items-start gap-10 py-16 sm:flex-row sm:items-center sm:justify-between"
+    >
       <div className="max-w-xl">
         <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
           {profile.tagline}
