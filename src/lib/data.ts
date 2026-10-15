@@ -6,7 +6,7 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/yadeeshkr/",
   tagline: "Building structure where none exists.",
   summary:
-    "I'm Yadeesh, currently based in Boston. I've onboarded enterprise clients, audited an admissions backlog, and built a nonprofit's operating system from scratch. Most of it ran in parallel, across U.S. and India time zones, usually without a formal handover.",
+    "Hand me a messy problem and a deadline, and I'll turn it into a plan people follow and results you can measure. I've cut client setup time 20% with zero churn, audited a university backlog no one had checked, and helped grow a nonprofit to 10+ programs serving 1,500+ students.",
 };
 
 export type Experience = {
