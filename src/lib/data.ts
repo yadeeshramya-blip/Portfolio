@@ -7,8 +7,8 @@ export const profile = {
   tagline: "Building structure where none exists.",
   intro: [
     "Six commitments. Three time zones. Nothing dropped.",
-    "From June to August 2026, I ran a university backlog audit, a nonprofit in India, a youth association's career program, audited policies and ran events end-to-end for two PMI chapter roles and a graduate capstone, all at the same time. Along the way, I've represented youth at the United Nations, built a nonprofit serving 1,500+ students, and grown revenue 22% across 60 enterprise accounts.",
-    "I strongly believe that projects succeed when everyone is still on board at the finish. That's how I run mine.",
+    "From June to August 2026, I ran all six at once: a university backlog audit, a nonprofit in India, a youth association's career program, two PMI chapter roles, and a graduate capstone. Over the past three years, I've also represented youth at the United Nations, cut client setup time 20% with zero churn, and grown revenue 22% across 60 enterprise accounts.",
+    "Projects succeed when everyone is still on board at the finish. That's how I run mine.",
   ],
 };
 
