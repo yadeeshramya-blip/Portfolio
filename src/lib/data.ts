@@ -6,7 +6,7 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/yadeeshkr/",
   tagline: "Building structure where none exists.",
   summary:
-    "I'm Yadeesh, a project and program manager in Boston. I've onboarded enterprise clients, audited an admissions backlog, and built a nonprofit's operating system from scratch. Most of it ran in parallel, across U.S. and India time zones, usually without a formal handover.",
+    "I'm Yadeesh, currently based in Boston. I've onboarded enterprise clients, audited an admissions backlog, and built a nonprofit's operating system from scratch. Most of it ran in parallel, across U.S. and India time zones, usually without a formal handover.",
 };
 
 export type Experience = {
@@ -22,7 +22,7 @@ export const experience: Experience[] = [
     role: "Application Processor, Foreign Credential Evaluation",
     period: "Sep 2025 - Aug 2026",
     points: [
-      "When held applications had gone unchecked, was selected by the Associate Director as 1 of 2 from a team of 20-25 to run a backlog audit; managed its timeline, priorities, and assignments in Slate and notified applicants directly.",
+      "When held applications had gone unchecked, was selected by the Associate Director to run a backlog audit; managed its timeline, priorities, and assignments in Slate and notified applicants directly.",
       "Managed workload in Slate so no application stayed in the backlog for long, adapting fast to changing credential regulations worldwide.",
       "Spotted workflow friction and drafted a process-improvement proposal recommending Slate filter and workflow changes to raise quality, speed, and throughput.",
       "Evaluated international academic records against U.S. standards to determine bachelor's-degree equivalency across education systems worldwide.",
