@@ -5,8 +5,11 @@ export const profile = {
   email: "kumbalathilramesh.y@northeastern.edu",
   linkedin: "https://www.linkedin.com/in/yadeeshkr/",
   tagline: "Building structure where none exists.",
-  summary:
-    "Hand me a messy problem and a deadline, and I'll turn it into a plan people follow and results you can measure. I've cut client setup time 20% with zero churn, audited a university backlog no one had checked, and helped grow a nonprofit to 10+ programs serving 1,500+ students.",
+  intro: [
+    "Six commitments. Three time zones. Nothing dropped.",
+    "From June to August 2026, I ran a university backlog audit, a nonprofit in India, a youth association's career program, audited policies and ran events end-to-end for two PMI chapter roles and a graduate capstone, all at the same time. Along the way, I've represented youth at the United Nations, built a nonprofit serving 1,500+ students, and grown revenue 22% across 60 enterprise accounts.",
+    "I strongly believe that projects succeed when everyone is still on board at the finish. That's how I run mine.",
+  ],
 };
 
 export type Experience = {

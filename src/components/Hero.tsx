@@ -11,9 +11,16 @@ export default function Hero() {
         <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
           {profile.tagline}
         </h1>
-        <p className="mt-5 text-base leading-7 text-muted">
-          {profile.summary}
+        <p className="mt-5 text-lg font-medium leading-8 text-foreground">
+          {profile.intro[0]}
         </p>
+        <div className="mt-4 space-y-4">
+          {profile.intro.slice(1).map((paragraph) => (
+            <p key={paragraph} className="text-base leading-7 text-muted">
+              {paragraph}
+            </p>
+          ))}
+        </div>
         <div className="mt-8 flex flex-wrap items-center gap-3">
           <a
             href={`mailto:${profile.email}`}
