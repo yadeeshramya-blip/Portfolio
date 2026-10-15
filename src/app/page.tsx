@@ -20,7 +20,7 @@ export default function Home() {
             <Hero />
             <ExperienceList
               id="work-life"
-              label="Work Life"
+              label="Work experience"
               entries={experience.map((e) => ({
                 title: e.role,
                 subtitle: e.company,
@@ -30,7 +30,7 @@ export default function Home() {
             />
             <ExperienceList
               id="leadership"
-              label="Volunteer Leadership - PMI Chapters"
+              label="Leadership and volunteering"
               entries={leadership.map((l) => ({
                 title: l.role,
                 subtitle: l.org,

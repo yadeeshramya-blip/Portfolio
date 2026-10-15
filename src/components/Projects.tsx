@@ -13,16 +13,30 @@ export default function Projects({ id }: { id?: string }) {
                 <h3 className="font-medium">{project.title}</h3>
                 <p className="text-sm text-muted">{project.context}</p>
               </div>
-              <span className="shrink-0 text-sm text-muted">{project.period}</span>
+              {project.period && (
+                <span className="shrink-0 text-sm text-muted">
+                  {project.period}
+                </span>
+              )}
             </div>
-            <ul className="mt-4 space-y-2">
-              {project.points.map((point) => (
-                <li key={point} className="flex gap-2 text-sm leading-6 text-muted">
-                  <span className="mt-2.5 h-1 w-1 shrink-0 rounded-full bg-muted" />
-                  {point}
-                </li>
-              ))}
-            </ul>
+            {project.points && (
+              <ul className="mt-4 space-y-2">
+                {project.points.map((point) => (
+                  <li
+                    key={point}
+                    className="flex gap-2 text-sm leading-6 text-muted"
+                  >
+                    <span className="mt-2.5 h-1 w-1 shrink-0 rounded-full bg-muted" />
+                    {point}
+                  </li>
+                ))}
+              </ul>
+            )}
+            {project.description && (
+              <p className="mt-3 max-w-2xl text-sm leading-6 text-muted">
+                {project.description}
+              </p>
+            )}
           </div>
         ))}
       </div>

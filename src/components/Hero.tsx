@@ -19,7 +19,15 @@ export default function Hero() {
             href={`mailto:${profile.email}`}
             className="rounded-full bg-foreground px-5 py-2.5 text-sm font-medium text-background transition-opacity hover:opacity-90"
           >
-            Contact me
+            Email me
+          </a>
+          <a
+            href={profile.linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-full border border-border px-5 py-2.5 text-sm font-medium transition-colors hover:bg-black/[.03]"
+          >
+            View LinkedIn
           </a>
         </div>
       </div>

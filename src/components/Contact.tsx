@@ -19,7 +19,12 @@ function LinkedInIcon({ size = 20 }: { size?: number }) {
 export default function Contact({ id }: { id?: string }) {
   return (
     <section id={id} className="py-10">
-      <SectionLabel>Contact</SectionLabel>
+      <SectionLabel>Let&apos;s talk</SectionLabel>
+      <p className="mb-6 max-w-2xl text-sm leading-6 text-muted">
+        If your team needs someone who can take a messy problem, bring everyone
+        along, and get it delivered, I&apos;d like to hear about it. I&apos;m
+        based in Boston and open to relocation.
+      </p>
       <div className="flex flex-wrap items-center justify-between gap-6 border-t border-border pt-6">
         <div className="flex flex-wrap items-center gap-6">
           <a

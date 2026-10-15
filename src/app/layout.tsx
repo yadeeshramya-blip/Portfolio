@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Yadeesh Kumbalathil Ramesh - Program Manager",
+  title: "Yadeesh Kumbalathil Ramesh | Project & Program Manager",
   description:
-    "Program Manager with a track record of building project management structure from ambiguity and delivering multi-stakeholder initiatives on time and within budget.",
+    "Project and program manager in Boston who builds structure where none exists: client onboarding, backlog audits, and a nonprofit's operating system, often run in parallel across time zones.",
 };
 
 export default function RootLayout({

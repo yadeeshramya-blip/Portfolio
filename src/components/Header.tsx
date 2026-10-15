@@ -5,7 +5,7 @@ const navLinks = [
   { href: "#work-life", label: "Work" },
   { href: "#leadership", label: "Leadership" },
   { href: "#global-engagement", label: "Global" },
-  { href: "#approach", label: "Approach" },
+  { href: "#approach", label: "How I work" },
   { href: "#projects", label: "Projects" },
   { href: "#education", label: "Education" },
   { href: "#skills", label: "Skills" },

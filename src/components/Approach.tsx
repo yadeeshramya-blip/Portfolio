@@ -4,7 +4,7 @@ import { approach } from "@/lib/data";
 export default function Approach({ id }: { id?: string }) {
   return (
     <section id={id} className="py-10">
-      <SectionLabel>Approach</SectionLabel>
+      <SectionLabel>How I work</SectionLabel>
       <div className="divide-y divide-border border-t border-border">
         {approach.map((item) => (
           <div key={item.number} className="flex gap-6 py-6">
